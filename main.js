@@ -1,6 +1,6 @@
 let temperature = 26;
 
-switch (1) {
+switch (true) {
     case (temperature < 0):
         console.log("ყინავს!");
         break;
@@ -24,5 +24,6 @@ switch (1) {
     default:
         console.log("არასწორი მნიშვნელობა");
 }
+
 
 
